@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#8000">
 <LinearLayout
@@ -14,7 +14,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/exo_rew"
     android:src="@drawable/ic_rew"
-    android:layout_marginEnd="1dp"/>
+    android:layout_marginEnd="10dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/exo_pause"
         android:src="@drawable/ic_pause"
-        android:layout_marginEnd="1dp"/>
+        android:layout_marginEnd="10dp"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,8 +75,8 @@
             android:id="@+id/exo_progress"
             android:layout_marginTop="8dp"
             app:unplayed_color="#45424E"
-            app:played_color="FF0000"
-            app:buffered_color="95989F"/>
+            app:played_color="#FF0000"
+            app:buffered_color="#95989F"/>
     </LinearLayout>
 
 </RelativeLayout>

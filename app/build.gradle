@@ -39,7 +39,7 @@ dependencies {
     //Danikula Video Cache
     implementation 'com.danikula:videocache:2.7.1'
     //ExoPlayer
-    implementation 'com.google.android.exoplayer:exoplayer:2.7.3'
+    implementation 'com.google.android.exoplayer:exoplayer:2.14.0'
 
 
 }
